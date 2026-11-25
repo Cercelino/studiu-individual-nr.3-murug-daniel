@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #171323;
+    color: #f5eaf5;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 { color: #f2b5d4; font-size: 36px; }
+h2 { color: #c9a7eb; margin-top: 30px; }
+p { font-size: 17px; line-height: 1.7; }
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 12px;
+    border: 2px solid #9b78b8;
+    box-shadow: 0 4px 15px #00000050;
+}
+
+table {
+    width: 80%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background: #241d33;
+}
+
+th, td { border: 1px solid #514064; padding: 12px; }
+th { background: #76528b; color: white; }
+tr:nth-child(even) { background: #30253f; }
+
+a { color: #f2b5d4; text-decoration: none; }
+a:hover { color: #e7c9a8; text-decoration: underline; }
+
+form {
+    background: #241d33;
+    padding: 22px;
+    margin: 25px auto;
+    max-width: 350px;
+    border-radius: 15px;
+    border: 1px solid #514064;
+}
+
+input {
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid #9b78b8;
+    border-radius: 7px;
+    background: #171323;
+    color: white;
+}
+
+input[type="submit"], input[type="reset"] {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"] { background: #b56b91; }
+input[type="reset"] { background: #76528b; }
